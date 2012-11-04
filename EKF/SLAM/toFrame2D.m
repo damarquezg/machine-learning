@@ -2,7 +2,7 @@ function [p_r, PR_r, PR_p] = toFrame2D(r , p)
 
 t = r(1:2);
 a = r(3);
-
+%这里涉及到了坐标的转换，即从一个坐标系转到另外的一个坐标系。这个公式需要从几何图形进行推导
 R = [cos(a) -sin(a) ; sin(a) cos(a)];
 
 p_r = R' * (p - t);

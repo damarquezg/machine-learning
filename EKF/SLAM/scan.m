@@ -2,7 +2,7 @@
 %   a = atan2(py, px) + ra
 
 function [y, Y_x] = scan(x)
-
+%这个函数则是把特征点的表示用（距离 角度）表示
 px = x(1);
 py = x(2);
 

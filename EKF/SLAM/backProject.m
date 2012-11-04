@@ -1,5 +1,5 @@
 function [p, P_r, P_y] = backProject(r, y)
-
+%将相对于机器人的坐标体系转换到全局的坐标系。
 if nargout == 1
     
     p_r = invScan(y);
