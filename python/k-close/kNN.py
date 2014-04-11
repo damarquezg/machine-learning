@@ -29,7 +29,8 @@ def classify0(inX, dataSet, labels, k):
 
 
 
+
+
+
+
 print "hello world, this is the first python machine learning example \n"
-
-group,labels = createDataSet()
-
